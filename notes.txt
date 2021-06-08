@@ -1,0 +1,25 @@
+Technologies Used in App
+-   Firebase - To store data (Database)
+-   React - Build the Application
+-   NextJS - Server Side Rendering
+-   Redux - Managing the data's state of the application.
+-   TailwindCSS - Styling the page.
+-   Webhooks
+-   NextAuthjs - Add a layer of authentication on the server and client.
+-   FakeStore API - Using dummy data to test the application.
+-   Stripe - Power payments in our application.
+
+File based routing is Used
+-   e.g. "amazon.com/search" - Create a file called "search.js".
+
+Libraries/Packages
+-   HeroIcons: Icons used for the page(s).
+-   react-responsive-carousel: Responsive on the page(s).
+-   react-currency-formatter: Use various currencies in the application.
+
+Notes
+-   'loading="lazy"': This is used for not impacting the UX.
+-   Server side rendering is used to fetch all the products from the FakeStore API.
+-   On the react element a key is needed so when the page is rendered the elements are loaded efficiently.
+-   The star rating and prime delivery are randomised.
+-   In the tailwind config file 'line-clamp' is added to shorten the description on the product list item.
