@@ -23,3 +23,7 @@ Notes
 -   On the react element a key is needed so when the page is rendered the elements are loaded efficiently.
 -   The star rating and prime delivery are randomised.
 -   In the tailwind config file 'line-clamp' is added to shorten the description on the product list item.
+-   With nextjs, to add the backend portion we need a folder called 'api'.
+-   Next.js already has a router built in.
+-   Using the mobile first approach during build.
+-   Reduce ES6 selector
